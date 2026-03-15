@@ -1,0 +1,43 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 60px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(/img/hero_1x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  @media screen and (min-resolution: 2x) {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.2)), url(/img/hero_2x.webp);
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white);
+}
+
+.title {
+  margin-bottom: 16px;
+  font-size: 60px;
+  line-height: 120%;
+}
+
+.description {
+  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 133%;
+}
+
+.buttonHerro {
+  padding: 12px 88px;
+  border-radius: 12px;
+  background: var(--button);
+  font-size: 16px;
+  line-height: 125%;
+}

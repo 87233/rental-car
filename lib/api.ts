@@ -13,6 +13,7 @@ export interface GetCarsParams {
 export interface GetCarsRes {
   cars: Car[];
   totalPages: number;
+  page: number;
 }
 
 axios.defaults.baseURL = process.env.NEXT_PUBLIC_API_URL;

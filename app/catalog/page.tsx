@@ -1,7 +1,14 @@
-import { getBrands } from "@/lib/api";
+import CatalogClient from "./CatalogPage.client";
 
-export default async function pegeCatalog() {
-  const brands = await getBrands();
-  console.log(brands);
-  return <div className="container">Cars</div>;
+export const metadata = {
+  title: "Car Rental - Catalog",
+  description: "Find your perfect car today",
+};
+
+export default async function CatalogPage() {
+  return (
+    <section className="container">
+      <CatalogClient />
+    </section>
+  );
 }

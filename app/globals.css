@@ -19,13 +19,6 @@ body {
   overflow-x: hidden;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
-
 body {
   font-family: var(--font-family), sans-serif;
   display: flex;
@@ -70,29 +63,9 @@ h6 {
   padding-inline: 20px;
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-inline: 32px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    padding-inline: 120px;
-  }
-}
-
 ul,
 li {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-} */
