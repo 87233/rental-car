@@ -38,7 +38,6 @@
   color: var(--text-color);
   background-color: var(--inputs);
   border: none;
-  font-size: 12px;
   outline: none;
   cursor: pointer;
   z-index: 1;
